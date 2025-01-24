@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "webcamcontrols",
+	"version": "${version}",
+	"name": "Webcam Controls",
+	"description": "Acts as the middleman between Python and Java for my Webcam controlled Minecraft",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/webcamcontrols/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.sharp.webcamcontrols.WebcamControls"
+		],
+		"fabric-datagen": [
+			"me.sharp.webcamcontrols.WebcamControlsDataGenerator"
+		],
+		"client": [
+			"me.sharp.webcamcontrols.WebcamControlsClient"
+		]
+	},
+	"mixins": [
+		"webcamcontrols.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

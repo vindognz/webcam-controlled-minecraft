@@ -5,11 +5,11 @@
 	"name": "Webcam Controls",
 	"description": "Acts as the middleman between Python and Java for my Webcam controlled Minecraft",
 	"authors": [
-		"Me!"
+		"vindognz"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/vindognz",
+		"sources": "https://github.com/vindognz/webcam-controlled-minecraft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/webcamcontrols/icon.png",

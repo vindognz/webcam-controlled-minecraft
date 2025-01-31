@@ -1,2 +1,4 @@
 # webcam-controlled-minecraft
-read the title and make a guess
+Minecraft controlled by webcam gestures!
+
+[Watch the demo!](demovideo.mp4)
